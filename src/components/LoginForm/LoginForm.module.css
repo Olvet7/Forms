@@ -13,3 +13,8 @@
     background-color: black;
     text-transform: uppercase;
 }
+
+.btn:hover {
+    background: gold;
+    color: #000;
+  }

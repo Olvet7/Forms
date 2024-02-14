@@ -5,6 +5,7 @@ export const LangSwircher = ({ value, onSelect }) => {
 
   return (
     <div>
+      <h2>Choosen language: {value}</h2>
       <label htmlFor={selectId}>Choose language</label>
       <select
         id={selectId}
