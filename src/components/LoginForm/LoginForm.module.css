@@ -1,0 +1,15 @@
+.form {
+    display: flex;
+    justify-content: center;
+}
+
+.input {
+    margin-right: 10px;
+}
+
+.btn {
+    padding: 0 14px;
+  color: #fff;
+    background-color: black;
+    text-transform: uppercase;
+}

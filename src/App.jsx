@@ -3,7 +3,7 @@ import { useState } from "react";
 import { LangSwircher } from "./components/LangSwitcher";
 import { SearchBar } from "./components/SearchBar";
 import { Coffee } from "./components/Coffe";
-import { LoginForm } from "./components/LoginForm";
+import { LoginForm } from "./components/LoginForm/LoginForm";
 
 
 export default function App() {
@@ -17,6 +17,7 @@ export default function App() {
 
   const handleLoginSubmit = (loginData) => {
     console.log("login data: ", loginData);
+    console.log(loginData.login);
   }
 
   return (
